@@ -84,8 +84,8 @@ make run
 Проверка связности в Mininet:
 
 ![pingall](images/firstTask.png)
-![basic_tunnel h1, h2](images/Screenshotfrom2026-06-1004-42-51.p4).
-![basic_tunnel.p4](images/Screenshotfrom2026-06-04-43-40.p4).
+![basic_tunnel h1, h2](images/Screenshotfrom2026-06-1004-42-51.png)
+![basic_tunnel.p4](images/Screenshotfrom2026-06-04-43-40.png)
 
 После проверки Mininet был остановлен:
 
@@ -104,8 +104,8 @@ cd ~/tutorials/exercises/basic_tunnel
 
 В `basic_tunnel.p4` была добавлена поддержка собственного заголовка `myTunnel`, разбор `etherType = 0x1212`, таблица точного совпадения `myTunnel_exact` и deparser, который выпускает заголовки в порядке `ethernet`, `myTunnel`, `ipv4`. Исправленный файл сохранен в репозитории лабораторной:
 реультаты
-[basic_tunnel.p4](./Screenshot from 2026-06-10 04-44-33.p4).
-[basic_tunnel.p4](./Screenshot from 2026-06-10 04-46-05.p4).
+![basic_tunnel.p4](images/Screenshotfrom2026-06-1004-44-33.[nng).
+![basic_tunnel p4](images/Screenshotfrom2026-06-1004-46-05.png).
 
 Ключевая часть ingress pipeline:
 
