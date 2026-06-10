@@ -84,8 +84,8 @@ make run
 Проверка связности в Mininet:
 
 ![pingall](images/firstTask.png)
-[basic_tunnel.p4](./Screenshot from 2026-06-10 04-42-51.p4).
-[basic_tunnel.p4](./Screenshot from 2026-06-10 04-43-40.p4).
+[basic_tunnel.p4](images/Screenshotfrom2026-06-1004-42-51.p4).
+[basic_tunnel.p4](images/Screenshotfrom2026-06-04-43-40.p4).
 
 После проверки Mininet был остановлен:
 
@@ -189,6 +189,8 @@ mininet> xterm h1 h2
 Результат на `h2`:
 
 ![Tunnel H2 with H3 IP](./images/tunnel-ip-h3-dstid2.png)
+![Tunnel H2 with H3 IP](./images/tunnel-ip-h3-dstid2.png)
+
 
 Пакет пришел на `h2`, хотя IP-адрес `10.0.3.3` принадлежит `h3`. Это подтверждает, что для инкапсулированных пакетов коммутатор использует поле `dst_id` из заголовка `myTunnel`.
 
